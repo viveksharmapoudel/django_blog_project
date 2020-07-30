@@ -26,7 +26,6 @@ def profile(request):
                               request.FILES,
                               instance=request.user.profile)
         print(u_form)
-        print("---------")
         print(p_form)
 
         if u_form.is_valid() and p_form.is_valid():
@@ -44,7 +43,8 @@ def profile(request):
             'u_form': u_form,
             'p_form':p_form
         }
-
     return render(request, 'users/profile.html', context)
 
- 
+
+
+

@@ -12,11 +12,6 @@ from blog.models import *
 
 
 
-def home(request):
-    context={
-        'posts':Post.objects.all(),
-    }
-    return render(request,'blog/home.html', context)
 
 
 ###CRUD for the post view 
