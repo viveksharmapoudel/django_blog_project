@@ -8,6 +8,6 @@ media/
 .vscode
 .output
 app.yaml
-cloud_sql.proxy.exe
+cloud_sql_proxy.exe
 credential.json
 .gcloudignore
