@@ -14,7 +14,7 @@ google-crc32c==0.1.0
 google-resumable-media==0.7.0
 googleapis-common-protos==1.52.0
 idna==2.10
-Pillow==7.2.0
+Pillow==8.2.0
 protobuf==3.12.4
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
